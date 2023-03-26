@@ -1,3 +1,6 @@
+# move some imports and configuration from app.py and models.py into a 3rd file
+# put them together to avoid circualr imports
+
 from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_migrate import Migrate
